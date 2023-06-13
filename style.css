@@ -1,0 +1,114 @@
+/* html {
+    height: 100%;
+} */
+
+/* body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+header nav {
+    /* background-color: black;
+    padding: 0.5em; */
+    display: flex;
+    /* flex設定 */
+    flex-wrap: wrap;
+    /* 折り返しあり */
+    background: black;    
+}
+
+header nav a {
+    /* color: white;
+    padding-left: 50px; */
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    text-decoration: none;    
+}
+
+main {
+    /* flex: 1 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between; */
+    display: flex;
+    /* flex設定 */
+    flex-wrap: wrap;
+    /* 折り返しあり */    
+}
+
+.left {
+    /* flex: 0 0 0 800px; */
+    width: 70%;
+    margin: 5px;    
+}
+
+.right {
+    /* flex: 0 0 400px */
+    width: 25%;
+    margin: 20px 5px 5px 15px;    
+}
+
+h1 {
+    border-left: 4px solid black;
+    border-bottom: 1px solid black;
+}
+
+.jpg1 {
+    /* width: 800px; */
+    width: 100%;    
+}
+
+.box1 {
+    /* width: 800px; */
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.box_pica, .box_picb {
+    width: 23%;
+    display: inline-block;
+}
+
+.box_pica {
+    padding-top: 20px;    
+}
+
+.box1 img {
+    width: 180px
+}
+
+.box1 p {
+    font-weight: bold;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    border-bottom: 3px dotted black;
+    padding-top: 11px;
+   }
+
+.right ul {
+    list-style-type: none;
+}
+
+.right ul li {
+    padding-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    /* line-height: 10px; */
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
